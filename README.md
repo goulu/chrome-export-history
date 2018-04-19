@@ -4,13 +4,9 @@ A Chrome extension to export your history as csv or json.
 
 ## Usage
 
-[Download it](https://chrome.google.com/webstore/detail/export-history/hcohnnbbiggngobheobhdipbgmcbelhh) on the Chrome web store.
-
-## Contributing
-
 Clone this repository:
 
-    $ git clone github.com:christiangenco/chrome-export-history.git
+    $ git clone github.com:myersg86/chrome-export-history.git
 
 Then visit the [extensions panel](chrome://extensions/) of your chrome settings, check `developer mode`, click `Load unpacked extension`, and select the directory you just cloned (for a more detailed explanation of these steps, visit Chrome's [Getting Started: Building a Chrome Extension](http://developer.chrome.com/extensions/getstarted) page).
 
@@ -30,8 +26,3 @@ And then *that* url is stuck into a link and clicked on so it downloads as a fil
     pom.setAttribute('download', filename);
     pom.click();
 
-Direct any questions to [@cgenco](https://twitter.com/cgenco) if you get stuck.
-
-## License
-
-Do whatever you want with this - but if you make money on it, I want some.
