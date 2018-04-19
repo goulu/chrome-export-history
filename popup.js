@@ -46,7 +46,7 @@ const downloadFile = ({ data, filename }) => {
 };
 
 var download = function(format) {
-  if (format == "csv" && unlocked) {
+  if (format == "csv" && !unlocked) {
     // not registered
     // show link to purchase
     chrome.tabs.create({
