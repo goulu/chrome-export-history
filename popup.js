@@ -1,6 +1,6 @@
 // localStorage.removeItem('registered');
 
-var unlocked = false;
+var unlocked = true;
 var unlock = function() {
   unlocked = true;
   window.csvButton.className = window.csvButton.className.replace(
