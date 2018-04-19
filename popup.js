@@ -23,7 +23,7 @@ easter_egg.code = function() {
   if (!unlocked) {
     unlock();
   } else {
-    whoa();
+    unlock();
   }
 };
 easter_egg.load();
